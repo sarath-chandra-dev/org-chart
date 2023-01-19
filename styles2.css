@@ -1,0 +1,17 @@
+.box {
+    background-color: blue;
+    color: white;
+    min-height: 40px;
+    border-radius: 10px;
+}
+
+.col-md-6,
+.col-md-2,
+.col-md-4 {
+    padding: 20px;
+}
+
+.bold {
+    font-weight: bold;
+    font-size: 12px;
+}
