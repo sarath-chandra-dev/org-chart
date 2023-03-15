@@ -216,4 +216,14 @@
 			</div>
 		</#list>
 	</#if>
-</div>
+</div><script>
+  $(document).ready(function() {
+    $('[data-toggle="tooltip"]').tooltip({
+      title: function() {
+        var title = $(this).attr('title');
+        $(this).removeAttr('title'); // Remove the title attribute
+        return title;
+      }
+    });
+  });
+</script>
